@@ -20,7 +20,11 @@ const ModuleFederationPlugin = require("webpack/lib/container/ModuleFederationPl
                 './web-components': './src/bootstrap.ts',
             },        
 
-            shared: ["@angular/core", "@angular/common", "@angular/router"]
+            shared: {
+              "@angular/core": { singleton: true, strictVersion: true }, 
+              "@angular/common": { singleton: true, strictVersion: true }, 
+              "@angular/router": { singleton: true, strictVersion: true }
+            }
           })
       ],
     };
