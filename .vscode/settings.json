@@ -15,5 +15,8 @@
         "titleBar.inactiveBackground": "#d0a57299",
         "titleBar.inactiveForeground": "#15202b99"
     },
-    "peacock.color": "#d0a572"
+    "peacock.color": "#d0a572",
+    "staticWebApps.appSubpath": "/",
+    "staticWebApps.apiSubpath": "api",
+    "staticWebApps.outputSubpath": "dist/mfe3"
 }

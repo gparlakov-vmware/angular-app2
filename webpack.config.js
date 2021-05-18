@@ -21,9 +21,9 @@ const ModuleFederationPlugin = require("webpack/lib/container/ModuleFederationPl
             },        
 
             shared: {
-              "@angular/core": { singleton: true, strictVersion: true }, 
-              "@angular/common": { singleton: true, strictVersion: true }, 
-              "@angular/router": { singleton: true, strictVersion: true }
+              "@angular/core": { }, 
+              "@angular/common": { }, 
+              "@angular/router": { }
             }
           })
       ],
