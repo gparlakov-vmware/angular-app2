@@ -11,10 +11,10 @@ import { endsWith } from './router.utils';
 @NgModule({
   imports: [
     BrowserModule,
-    // RouterModule.forRoot([
-    //   { matcher: endsWith('a'), component: AComponent},
-    //   { matcher: endsWith('b'), component: BComponent},
-    // ])
+    RouterModule.forRoot([
+      { matcher: endsWith('a'), component: AComponent},
+      { matcher: endsWith('b'), component: BComponent},
+    ])
   ],
   declarations: [
     AComponent,
